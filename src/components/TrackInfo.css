@@ -1,0 +1,19 @@
+.track-info {
+    margin-bottom: 20px;
+}
+
+.track-info>h2 {
+    margin: 5px;
+}
+
+.track-info>h4 {
+    margin: 5px;
+}
+
+.song-item>article {
+    position: relative;
+}
+
+.song-item>article>a {
+    margin: 5px;
+}
