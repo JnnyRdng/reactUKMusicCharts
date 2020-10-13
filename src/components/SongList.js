@@ -1,17 +1,18 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Song from "./Song";
+import "./SongList.css"
 
 export default function SongList(props) {
 
-    const songNodes = props.songs.map(song => {
+    const songNodes = props.songs.map((song, i) => {
         return (
-            <Song song={song} />
+            <Song song={song} key={i} index={i} />
         )
     });
 
     return (
-        <Fragment>
+        <div id="song-list">
             { songNodes}
-        </Fragment>
+        </div>
     )
 }

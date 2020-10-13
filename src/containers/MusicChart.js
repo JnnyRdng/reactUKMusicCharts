@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SongList from "../components/SongList";
+import "./MusicChart.css";
 
 export default class MusicChart extends Component {
 
@@ -17,7 +18,9 @@ export default class MusicChart extends Component {
 
     render() {
         return (
-            <SongList songs={this.state.songs} />
+            <div id="chart">
+                <SongList songs={this.state.songs} />
+            </div>
         )
     }
 }
