@@ -4,7 +4,8 @@
     gap: 30px;
     margin: 10px;
     align-items: center;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .song-item>aside {
@@ -16,6 +17,5 @@
     font-weight: 900;
     margin: 0px;
     padding-right: 20px;
-    /* font-family: "Arial Black"; */
     opacity: 0.3;
 }
